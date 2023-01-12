@@ -1,0 +1,96 @@
+    
+body {
+    background-color: red;
+    font-family: sans-serif;
+}
+
+.method {
+    background-color: #e6e6e6;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.method h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.method p {
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+.example {
+    background-color: #d9d9d9;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.example h4 {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: cornflowerblue;
+}
+
+.example p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+.coment{
+    color: green;
+}
+.the-end {
+    text-align: center;
+    margin-top: 50px;
+}
+.the-end h1 {
+    font-size: 3em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+}
+.animated {
+    animation-duration: 2s;
+    animation-fill-mode: both;
+}
+
+@keyframes rotate { 
+    0% {transform: rotate(0deg);} 
+    100% {transform: rotate(360deg);} 
+}
+
+.rotate { 
+    animation-name: rotate; 
+}
+
+.delay-2s {animation-delay: 2s;}  
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 0.8em;
+    }
+    .method h3 {
+        font-size: 1em;
+    }
+    .method p {
+            font-size: 0.8em;
+    }
+    .example h4 {
+        font-size: 1em;
+    }
+    .example p {
+        font-size: 0.9em;
+    }  
+    .the-end h1 {
+        font-size: 2em;  
+    }  
+    }
